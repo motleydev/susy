@@ -490,6 +490,7 @@ Show the Susy Grid as a background-image on any container.
     // susy-grid-background();
     .page { @include susy-grid-background; }
 
+- You can override the column color with `$grid-background-column-color` variable.
 - If you are using the `<body>` element as your _Container_,
   you need to apply a background to the `<html>` element
   in order for this grid-background to size properly.
